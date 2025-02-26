@@ -11,6 +11,18 @@ module.exports = {
       height:{
         nav:[
           "75px"
+        ],
+        divH:[
+          "625px"
+        ],
+        sec1:[
+          "10%"
+        ],
+        sec2:[
+          "40%"
+        ],
+        sec3:[
+          "50%"
         ]
       },
       backgroundColor:{
