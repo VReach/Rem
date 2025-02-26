@@ -622,6 +622,11 @@ video {
   margin-right: auto;
 }
 
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .ml-3{
   margin-left: 0.75rem;
 }
@@ -640,6 +645,10 @@ video {
 
 .inline-flex{
   display: inline-flex;
+}
+
+.grid{
+  display: grid;
 }
 
 .hidden{
@@ -668,6 +677,14 @@ video {
   height: 2rem;
 }
 
+.h-auto{
+  height: auto;
+}
+
+.h-divH{
+  height: 625px;
+}
+
 .h-full{
   height: 100%;
 }
@@ -678,6 +695,26 @@ video {
 
 .h-screen{
   height: 100vh;
+}
+
+.h-sec1{
+  height: 10%;
+}
+
+.h-sec2{
+  height: 40%;
+}
+
+.h-sec3{
+  height: 50%;
+}
+
+.w-1\/2{
+  width: 50%;
+}
+
+.w-1\/3{
+  width: 33.333333%;
 }
 
 .w-2\/5{
@@ -718,6 +755,10 @@ video {
 
 .origin-top-right{
   transform-origin: top right;
+}
+
+.place-items-center{
+  place-items: center;
 }
 
 .items-center{
@@ -773,6 +814,11 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
 }
 
+.bg-gray-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
+}
+
 .bg-gray-800{
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
@@ -783,6 +829,16 @@ video {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
 }
 
+.bg-slate-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity, 1));
+}
+
+.bg-slate-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity, 1));
+}
+
 .bg-trans-0{
   --tw-bg-opacity: 1;
   background-color: rgb(30 154 198 / var(--tw-bg-opacity, 1));
@@ -791,6 +847,11 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-1{
@@ -804,6 +865,11 @@ video {
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-28{
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 
 .px-3{
@@ -831,6 +897,16 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-28{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pb-3{
   padding-bottom: 0.75rem;
 }
@@ -847,8 +923,17 @@ video {
   padding-top: 2rem;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .font-Font1{
   font-family: Josefin Sans, serif;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-4xl{
@@ -866,8 +951,16 @@ video {
   line-height: 1.25rem;
 }
 
+.font-bold{
+  font-weight: 700;
+}
+
 .font-medium{
   font-weight: 500;
+}
+
+.uppercase{
+  text-transform: uppercase;
 }
 
 .text-gray-300{
