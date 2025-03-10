@@ -6,5 +6,12 @@
     @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
 }
 .hovera{
-    @apply font-bold px-3 py-2 text-white hover:bg-bga-0 rounded-full transition-all ease-linear 
+    @apply font-bold px-3 py-2 text-white hover:text-black hover:underline transition-all ease-linear 
 }
+.info{
+    @apply w-full xl:h-2/4 lg:h-3/5 md:h-2/5 text-center pt-2 px-5;
+}
+.pic{
+    @apply w-full xl:h-2/4 lg:h-2/5 md:h-3/5;
+}
+

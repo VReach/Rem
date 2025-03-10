@@ -23,6 +23,9 @@ module.exports = {
         ],
         sec3:[
           "50%"
+        ],
+        divS:[
+          "690px"
         ]
       },
       backgroundColor:{
