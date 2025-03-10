@@ -13,16 +13,16 @@ module.exports = {
           "75px"
         ],
         divH:[
-          "625px"
+          "620px"
         ],
         sec1:[
-          "10%"
+          "12%"
         ],
         sec2:[
           "40%"
         ],
         sec3:[
-          "50%"
+          "48%"
         ],
         divS:[
           "690px"
@@ -39,6 +39,9 @@ module.exports = {
       textColor:{
         t1:[
           "#1e9ac6"
+        ],
+        t2:[
+          "#ff8559"
         ]
       }
     },
